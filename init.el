@@ -32,3 +32,6 @@
   (spacemacs/setup-startup-hook)
   (require 'server)
   (unless (server-running-p) (server-start)))
+
+(add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
+(add-to-list 'default-frame-alist '(ns-appearance . light))
